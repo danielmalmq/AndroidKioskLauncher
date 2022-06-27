@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">KioskMode</string>
+    <string name="admin_description">Kiosk app</string>
+    <string name="to_enable_kiosk_mode">To enable Kiosk mode</string>
+    <string name="you_first_need_to" >You first need to install the app as a system app or enable usb debug mode and run the following adb command:\n\n</string>
+    <string name="to_disable_kiosk_mode">To disable Kiosk mode</string>
+    <string name="not_enabled">Not enabled</string>
+    <string name="icon_of_string">Icon of %s</string>
+    <string name="enable_kiosk_mode">Enable Kiosk Mode</string>
+    <string name="disable_kiosk_mode">Disable Kiosk Mode</string>
+    <string name="enable_disable_apps">Enable / Disable apps</string>
+    <string name="config">Config</string>
+    <string name="set_as_launcher">Set as Launcher</string>
+    <string name="enable_all_apps">Enable all apps</string>
+    <string name="disable_all_apps">Disable all apps</string>
+
+</resources>
