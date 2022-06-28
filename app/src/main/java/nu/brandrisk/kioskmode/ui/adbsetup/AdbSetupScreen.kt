@@ -29,7 +29,7 @@ fun AdbSetupView() {
                     fontFamily = FontFamily.Monospace
                 )
             ) {
-                append("adb shell dpm set-device-owner nu.brandrisk.kioskmode/.MyDeviceAdminReceiver")
+                append("adb shell dpm set-device-owner nu.brandrisk.kioskmode/.KioskDeviceAdminReceiver")
             }
         })
 
@@ -43,7 +43,7 @@ fun AdbSetupView() {
                     fontFamily = FontFamily.Monospace
                 )
             ) {
-                append("adb shell dpm remove-active-admin nu.brandrisk.kioskmode/.MyDeviceAdminReceiver")
+                append("adb shell dpm remove-active-admin nu.brandrisk.kioskmode/.KioskDeviceAdminReceiver")
             }
         })
     }
